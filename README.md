@@ -18,8 +18,8 @@ Download the dataset (TVSum/SumMe) from [datasets](https://drive.google.com/driv
 
 ### Train and Test
 
-Run train.py by "python train.py --model-dir models/tvsum --splits splits/tvsum_few_shot.yml --temporal_scales 4 --spatial_scales 6" 
+Run train.py by `python train.py --model-dir models/tvsum --splits splits/tvsum_few_shot.yml --temporal_scales 4 --spatial_scales 6` 
 
 or
 
-by "python train.py --model-dir models/summe --splits splits/summe_few_shot.yml --temporal_scales 4 --spatial_scales 2"
+by `python train.py --model-dir models/summe --splits splits/summe_few_shot.yml --temporal_scales 4 --spatial_scales 2`
