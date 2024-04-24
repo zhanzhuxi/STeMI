@@ -12,6 +12,10 @@ This codes requires the following:
 - ortools 8.0.8283
 - scipy 1.10.1
 
+### Datasets
+
+Download the dataset (TVSum/SumMe) from [datasets](https://drive.google.com/drive/folders/1HAkqtixx1xz2bu2h654CNXEN36wTXIgr?usp=sharing), and save the corresponding data into the directory `./datasets/`.
+
 ### Train and Test
 
 Run train.py by "python train.py --model-dir models/tvsum --splits splits/tvsum_few_shot.yml --temporal_scales 4 --spatial_scales 6" 
